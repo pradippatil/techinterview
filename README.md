@@ -13,7 +13,6 @@ Table of contents
 ---
 <!-- TOC -->
 
-- [My study guide for tech interviews](#my-study-guide-for-tech-interviews)
     - [Why?](#why)
     - [How to study a particular topic/concept?](#how-to-study-a-particular-topicconcept)
     - [Choose a language or two to implement the topics learned](#choose-a-language-or-two-to-implement-the-topics-learned)
