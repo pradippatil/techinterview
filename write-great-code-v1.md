@@ -17,6 +17,7 @@ Table of contents
     - [Convert `decimal` to `binary`](#convert-decimal-to-binary)
     - [Convert `binary` to `hexadecimal`](#convert-binary-to-hexadecimal)
     - [Convert `hexadecimal` to `binary`](#convert-hexadecimal-to-binary)
+- [Internal Numeric representations](#internal-numeric-representations)
 
 <!-- /TOC -->
 
@@ -29,9 +30,11 @@ Table of contents
  * Is well tested
  * Is well documented
 
+---
 ### Number
 `Number` is an intangible, abstract concept used to denote `quantity` and can be represented in several ways.
 
+---
 ### Numbering systems
 To represent numeric values we use `positional notation systems` which can use at most 36 symbols (As name suggests, it not only takes into consideration the symbol itself, but it's position in sequence of symbols.)
 
@@ -59,5 +62,18 @@ Pad binary number with zeros to make sure it's multiple of 4 and substitute each
 #### Convert `hexadecimal` to `binary`
 Similar to above method. Replace each hex digit by corresponding binary 4 bits
 
+---
+### Internal Numeric representations
+In general, with an n-bit string you can represent up to 2n different values
+
+
+Bit string| Size in Bits|Number of Possible Combinations (2^n)
+:----------|:------------------------------|:-------------------------
+nibble|4| 16
+byte|8| 256
+word|16| 65,536
+double word|32|4,294,967,296
+quad word|64|18,446,744,073,709,551,616
+long word|128|340,282,366,920,938,463,463,374,607,431,768,211,456
 
 
