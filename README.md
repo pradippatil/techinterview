@@ -1,9 +1,7 @@
 # My study guide for tech interviews
 
-
 ---
 `This guide aims for a software engineer role and not for a particular technology/language`
----
 
 > References
 
