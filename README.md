@@ -1,6 +1,7 @@
-# My study guide for tech interviews
+My study guide for tech interviews
+===
 
-`This guide aims for a software engineer role and not for a specific technology/language`
+`This guide aims for a software engineer role and not for a specific technology`
 
 
 > References </br>
@@ -13,10 +14,9 @@ Table of contents
 ---
 <!-- TOC -->
 
-- [My study guide for tech interviews](#my-study-guide-for-tech-interviews)
-    - [Why?](#why)
-    - [How to study a particular topic/concept?](#how-to-study-a-particular-topicconcept)
-    - [Choose a language or two to implement the topics learned](#choose-a-language-or-two-to-implement-the-topics-learned)
+- [Why?](#why)
+- [How to study a particular topic/concept?](#how-to-study-a-particular-topicconcept)
+- [Choose a language or two to implement the topics learned](#choose-a-language-or-two-to-implement-the-topics-learned)
 
 <!-- /TOC -->
 
@@ -39,7 +39,7 @@ We can't remember everything we studied once. Key to retain knowledge is to prac
 * Wash-Rinse-Repeat
 
 ## Choose a language or two to implement the topics learned
-Use the programming language you are/want to comfortable in to implement everything you will be learning.
+Choose the programming language you are/want to comfortable in to implement everything you will be learning.
 I will be using Go and/or Python.
 
 
