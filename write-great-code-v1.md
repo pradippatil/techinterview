@@ -15,6 +15,8 @@ Table of contents
 - [Numbering systems](#numbering-systems)
     - [Convert `binary` to `decimal`](#convert-binary-to-decimal)
     - [Convert `decimal` to `binary`](#convert-decimal-to-binary)
+    - [Convert `binary` to `hexadecimal`](#convert-binary-to-hexadecimal)
+    - [Convert `hexadecimal` to `binary`](#convert-hexadecimal-to-binary)
 
 <!-- /TOC -->
 
@@ -38,12 +40,12 @@ To represent numeric values we use `positional notation systems` which can use a
 
 To create `base-n` system, we need `n` unique symbols
 
-| Numbering system | Base (Radix) | Symbols |
-|---|---|---|
-|Binary|2|0,1|
-|Octal|8|0-7|
-|Decimal|10|0-9|
-|Hexadecimal|16|0-9,A-Z|
+| Numbering system | Base (Radix) | Symbols |Comments|
+|---|---|---|---|
+|Binary|2|0,1||
+|Octal|8|0-7|_Not widely used_|
+|Decimal|10|0-9||
+|Hexadecimal|16|0-9,A-Z||
 
 #### Convert `binary` to `decimal`
 Add `2^i` for each `i` in binary string
@@ -51,7 +53,11 @@ Add `2^i` for each `i` in binary string
 #### Convert `decimal` to `binary`
 See my [gist](https://gist.github.com/pradippatil/e9c345d7f8b7a9d10a5bbb09cca18488) in Go: 
 
+#### Convert `binary` to `hexadecimal`
+Pad binary number with zeros to make sure it's multiple of 4 and substitute each group by corresponding Hex digit from this [table](https://github.com/pradippatil/cheatsheets/blob/master/Numbers.md#numbers-representations)
 
+#### Convert `hexadecimal` to `binary`
+Similar to above method. Replace each hex digit by corresponding binary 4 bits
 
 
 
