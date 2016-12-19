@@ -17,6 +17,7 @@ Table of contents
 - [Why?](#why)
 - [How to study a particular topic/concept?](#how-to-study-a-particular-topicconcept)
 - [Choose a language or two to implement the topics learned](#choose-a-language-or-two-to-implement-the-topics-learned)
+- [Books](#books)
 - [Algorithms](#algorithms)
 
 <!-- /TOC -->
@@ -43,6 +44,12 @@ We can't remember everything we studied once. Key to retain knowledge is to prac
 Choose the programming language that you are/want to comfortable in to implement everything you will be learning.
 I will be using Go and/or Python.
 
+
+## Books
+| Book | Notes |
+|:--- | --- |
+| [Write Great Code - Understanding Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038) | [my notes](write-great-code-v1.md) |
+|  |  |
 
 ## Algorithms
 [http://opendatastructures.org/ods-python/Contents.html](http://opendatastructures.org/ods-python/Contents.html)
