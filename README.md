@@ -18,7 +18,7 @@ Table of contents
 - [How to study a particular topic/concept?](#how-to-study-a-particular-topicconcept)
 - [Choose a language or two to implement the topics learned](#choose-a-language-or-two-to-implement-the-topics-learned)
 - [Books](#books)
-- [Algorithms](#algorithms)
+- [Algorithms and Data Structures](#algorithms-and-data-structures)
 
 <!-- /TOC -->
 
@@ -51,7 +51,10 @@ I will be using Go and/or Python.
 | [Write Great Code - Understanding Machine](https://www.amazon.com/Write-Great-Code-Understanding-Machine/dp/1593270038) | [my notes](write-great-code-v1.md) |
 |  |  |
 
-## Algorithms
-[http://opendatastructures.org/ods-python/Contents.html](http://opendatastructures.org/ods-python/Contents.html)
+## Algorithms and Data Structures
+| Book/Course | - |
+|:--- |---|
+|[Algorithms and Data Structures - Princeton](http://www.cs.princeton.edu/courses/archive/fall16/cos226/lectures.html) | |
+|[http://opendatastructures.org/ods-python/Contents.html](http://opendatastructures.org/ods-python/Contents.html) | |
 
 
