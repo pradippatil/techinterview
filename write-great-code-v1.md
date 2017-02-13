@@ -18,6 +18,7 @@ Table of contents
     - [Convert `binary` to `hexadecimal`](#convert-binary-to-hexadecimal)
     - [Convert `hexadecimal` to `binary`](#convert-hexadecimal-to-binary)
 - [Internal Numeric representations](#internal-numeric-representations)
+- [Signed and Unsigned Numbers](#signed-and-unsigned-numbers)
 
 <!-- /TOC -->
 
@@ -48,7 +49,7 @@ To create `base-n` system, we need `n` unique symbols
 |Binary|2|0,1||
 |Octal|8|0-7|_Not widely used_|
 |Decimal|10|0-9||
-|Hexadecimal|16|0-9,A-Z||
+|Hexadecimal|16|0-9,A-F||
 
 #### Convert `binary` to `decimal`
 Add `2^i` for each `i` in binary string
@@ -64,16 +65,19 @@ Similar to above method. Replace each hex digit by corresponding binary 4 bits
 
 ---
 ### Internal Numeric representations
+Computers use binary number system for internal numeric representations.
 In general, with an n-bit string you can represent up to 2n different values
 
 
-Bit string| Size in Bits|Number of Possible Combinations (2^n)
-:----------|:------------------------------|:-------------------------
+Bit string| Size in Bits|Number of Possible Combinations (2^n) |
+:----------|:------------------------------|:------------------------- | :--
+bit|1|2 
 nibble|4| 16
-byte|8| 256
+byte|8| 256 | Smallest unit of storage on most machines and languages
 word|16| 65,536
 double word|32|4,294,967,296
 quad word|64|18,446,744,073,709,551,616
 long word|128|340,282,366,920,938,463,463,374,607,431,768,211,456
 
-
+---
+### Signed and Unsigned Numbers
